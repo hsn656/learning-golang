@@ -14,7 +14,7 @@ app.get('/get', (req, res) => {
   })
 
 
-app.post('/post', (req, res) => {
+app.post('/g', (req, res) => {
     let myJson = req.body;
 	
 	res.status(200).send(myJson);
